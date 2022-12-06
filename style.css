@@ -5,16 +5,15 @@ SPACING SYSTEM (px)
 FONT SIZE SYSTEM (px)
 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
 */
+/* MAIN COLOR: #007f5b */
+/* GREY COLOR: #343a40 */
+/*  */
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
-/* MAIN COLOR: #007f5b */
-/* GREY COLOR: #343a40 */
-/*  */
 
 /* ------------------------ */
 /* GENERAL STYLES */
@@ -111,6 +110,10 @@ img {
 
 /* FEATURES */
 .features-icon {
+  stroke: #087f5b;
+  width: 32px;
+  height: 32px;
+  margin-bottom: 16px;
 }
 
 .features-title {
@@ -174,6 +177,9 @@ h3 {
 }
 
 .chair-icon {
+  stroke: #087f5b;
+  width: 24px;
+  height: 24px;
 }
 
 .chair-price {
