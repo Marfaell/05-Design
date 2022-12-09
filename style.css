@@ -50,6 +50,7 @@ h2 {
   background-color: #007f5b;
   text-decoration: none;
   text-transform: uppercase;
+  border-radius: 100px;
 }
 
 .btr:link,
@@ -58,6 +59,7 @@ h2 {
   color: #fff;
   font-weight: 500;
   display: inline-block;
+  /* if we want it round we need value higher than it's hight */
 }
 
 .btn:hover,
@@ -75,6 +77,9 @@ h2 {
   padding: 8px 12px;
 }
 
+img {
+  border-radius: 12px;
+}
 /* ------------------------ */
 /* COMPONENT STYLES */
 /* ------------------------ */
@@ -133,6 +138,7 @@ img {
   background-color: #087f5b;
   color: #fff;
   padding: 24px;
+  border-radius: 12px;
 }
 
 .testimonial-box {
@@ -152,10 +158,20 @@ img {
   line-height: 1.7;
 }
 
+.testimonial-img {
+  margin-top: 20px;
+}
+
 /* CHAIRS */
 .chair {
   box-shadow: 0 20px 30px 0px rgba(0, 0, 0, 0.07);
   /* box-shadow: *shadow box width* *shadow wertical height* *blur* *optional - scale shadow* *color* */
+  border-radius: 12px;
+}
+
+.chair img {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
 }
 
 .chair-box {
